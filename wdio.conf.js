@@ -58,9 +58,9 @@ export const config = {
 
         'appium:platformName': 'Android',
         'appium:platformVersion': '12.0',
-        'appium:deviceName': 'pixel 9',
+        'appium:deviceName': 'Pixel 6',
         'appium:automationName': 'UiAutomator2',
-        'appium:app': path.join(process.cwd(),'app\android\ApiDemos-debug.apk')
+        'appium:app': path.join(process.cwd(), 'app', 'android', 'ApiDemos-debug.apk')
         // capabilities for local Appium web tests on an Android Emulator
        
     }],
